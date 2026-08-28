@@ -98,11 +98,6 @@ code_execution:
   max_tool_calls: 50
 streaming:
   enabled: false
-onboarding:
-  seen:
-    busy_input_prompt: true
-    profile_build_offered: true
-    tool_progress_prompt: true
 telemetry:
   shared_metrics:
     enabled: false
@@ -191,3 +186,6 @@ known_builtin_toolsets:
     - web
     - x_search
     - yuanbao
+onboarding:
+  seen:
+    busy_input_prompt: true

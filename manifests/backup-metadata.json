@@ -1,13 +1,23 @@
 {
-  "profile": "aria",
-  "source_home": "$HERMES_HOME",
-  "created_at_utc": "2026-08-28T03:03:06+00:00",
-  "scope": "configuration-only; secrets and runtime state excluded",
-  "scheduled_jobs": 0,
+  "created_at_utc": "2026-08-28T03:09:03+00:00",
+  "profile_count": 2,
+  "profiles": [
+    "default",
+    "aria"
+  ],
+  "active_profile": "aria",
+  "scope": "all profile configurations; secrets, memory/session databases, logs, caches, and runtime state excluded",
   "checksums_sha256": {
-    "config/config.yaml": "5f5ea4c98908567da4aa2357b29bf49fe03409386571ad0d63df5d5376ecb2e7",
-    "profile/SOUL.md": "29993087d2d7a0fb9f71c589f878b3c5b28c67f61765d51a13f9740fcf82e189",
-    "manifests/env.example": "b5b41ae7fe4cadcaa53224f575e6eb4857978dce8708d32108f1853f6c45e47e",
-    "manifests/skills.manifest": "bbf1cf0f4fe1e0895d8284cdbff979172ee4c99fc6244f1e47415d54ef4da650"
+    "profiles/aria/SOUL.md": "29993087d2d7a0fb9f71c589f878b3c5b28c67f61765d51a13f9740fcf82e189",
+    "profiles/aria/config.yaml": "69ebe84fd04f88ca712959758bb1500ca2625e003a95e537af9c039f3a8ae104",
+    "profiles/aria/env.example": "b5b41ae7fe4cadcaa53224f575e6eb4857978dce8708d32108f1853f6c45e47e",
+    "profiles/aria/profile-metadata.json": "ac22c8891cf93c3e0e186b4cad7984a492fad8cdab896fcc8a4208a7cc6717c8",
+    "profiles/aria/skills.manifest": "bbf1cf0f4fe1e0895d8284cdbff979172ee4c99fc6244f1e47415d54ef4da650",
+    "profiles/default/SOUL.md": "29993087d2d7a0fb9f71c589f878b3c5b28c67f61765d51a13f9740fcf82e189",
+    "profiles/default/config.yaml": "749efd1f623470e235d8001260fdf40f049f9a85c40cb6689e08338fd1196df9",
+    "profiles/default/env.example": "0770407e8a210c01a2dfbab8ab535241b7f87496e637ea9827505c75457cc663",
+    "profiles/default/profile-metadata.json": "e56d3e7c4351e6d7dbcb5ec4420ad232b90791d783dc7e893b2a009bc77871f1",
+    "profiles/default/skills.manifest": "bbf1cf0f4fe1e0895d8284cdbff979172ee4c99fc6244f1e47415d54ef4da650",
+    "system/active_profile": "295812f2fcab8af8b86ba8b30ab3e56dfb401fc13ff4ea5ebc4a79ba025c468f"
   }
 }
