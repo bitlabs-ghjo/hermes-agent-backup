@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 ROOT = Path(os.environ.get("HERMES_DATA_ROOT", "/opt/data")).resolve()
 REPO = Path(__file__).resolve().parents[1]
 SNAPSHOT_ROOT = REPO / "profiles"
-PROFILE_ASSET_DIRS = ("skins", "hooks", "desktop-plugins", "tui-widgets", "pets")
+PROFILE_ASSET_DIRS = ("skins", "hooks", "scripts", "desktop-plugins", "tui-widgets", "pets")
 IGNORED_NAMES = {
     ".usage.json",
     ".usage.json.lock",
