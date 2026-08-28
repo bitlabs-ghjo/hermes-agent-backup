@@ -1,0 +1,37 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+auth.lock
+.git-credentials
+
+# Hermes runtime/session state
+state.db*
+response_store.db*
+executions.db*
+*.sqlite*
+sessions/
+logs/
+cache/
+audio_cache/
+image_cache/
+terminal-sessions/
+pairing/
+pending_messages/
+workspace/
+gateway*
+*.sock
+*.pid
+*.lock
+
+# Generated caches and backups
+*_cache.json
+*_cache.yaml
+*.etag
+config.yaml.bak.*
+__pycache__/
+*.pyc
+.DS_Store

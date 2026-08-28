@@ -1,0 +1,13 @@
+{
+  "profile": "aria",
+  "source_home": "$HERMES_HOME",
+  "created_at_utc": "2026-08-28T03:03:06+00:00",
+  "scope": "configuration-only; secrets and runtime state excluded",
+  "scheduled_jobs": 0,
+  "checksums_sha256": {
+    "config/config.yaml": "5f5ea4c98908567da4aa2357b29bf49fe03409386571ad0d63df5d5376ecb2e7",
+    "profile/SOUL.md": "29993087d2d7a0fb9f71c589f878b3c5b28c67f61765d51a13f9740fcf82e189",
+    "manifests/env.example": "b5b41ae7fe4cadcaa53224f575e6eb4857978dce8708d32108f1853f6c45e47e",
+    "manifests/skills.manifest": "bbf1cf0f4fe1e0895d8284cdbff979172ee4c99fc6244f1e47415d54ef4da650"
+  }
+}
