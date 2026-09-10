@@ -46,6 +46,14 @@ Confirm or infer only low-risk defaults:
 
 If brand direction or the tradeoff between editability and visual fidelity materially affects the result, ask one focused question and recommend an option.
 
+### New reusable formats: agree on process before production
+
+When the user is creating a reusable proposal, training, consulting, or sales-deck format for the first time, establish and discuss a phase-gated workflow before making the full deck. Confirm the representative offer, buyer, end audience, delivery context, price treatment, and output formats; then approve the content architecture before visual work.
+
+Do **not** design an empty generic template first. Build and validate one real representative proposal, prototype 3–5 pages, complete that proposal only after direction approval, and then extract fixed, variable, optional, appendix, and companion-document components into the reusable template. Treat approval of each gate as limited to that gate, not as blanket approval of later content or visuals.
+
+For the detailed gates, emailed-PDF considerations, short training-proposal pattern, and browser-verified HTML prototype workflow, read `references/reusable-proposal-deck-workflow.md`.
+
 ## Procedure
 
 ### 1. Audit before redesigning

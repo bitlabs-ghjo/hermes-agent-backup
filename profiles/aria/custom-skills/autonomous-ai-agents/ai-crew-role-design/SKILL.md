@@ -29,6 +29,7 @@ Do not use it for a temporary role-play prompt or a single delegated task.
 ## Supporting files
 
 - `references/hermes-slack-profile-onboarding.md` — proven Hermes profile + distinct Slack bot workflow, security boundaries, and verification.
+- `references/profile-assignment-handoff.md` — durable real-profile assignment packets, observable handoff states, artifact verification, and timeout-safe recovery.
 - `templates/role-interview.md` — staged interview checklist for identity, outcomes, authority, reporting, evidence, and security.
 - `templates/soul-role.md` — reusable SOUL.md and ROLE.md structure.
 
@@ -184,8 +185,10 @@ A reporting line on paper does not make work visible to the manager. When an exe
 3. Distinguish a handoff to the real specialist profile from an internal subagent merely prompted to imitate that specialist’s role. Do not report the latter as profile-to-profile delegation.
 4. Reconcile the commitment into the organization’s task system as a `waiting` item with the real owner and source provenance. Leave deadline and review date unset when the executive did not provide them; surface the omission instead of guessing.
 5. Close the waiting item only after the deliverable is received and reviewed, not merely when a delegation process reports completion.
+6. For complex source material, send a file-backed assignment packet to the specialist’s real profile and require an absolute artifact path; see `references/profile-assignment-handoff.md`.
+7. If the profile run times out, inspect the expected artifact, active process, and durable specialist state before retrying. A timed-out caller can coexist with a successfully written artifact, and a blind retry can duplicate work or reports.
 
-A useful status report separates **request confirmed**, **work running**, **deliverable produced**, and **managerial review complete**. These are different states.
+A useful status report separates **request confirmed**, **work running**, **deliverable produced**, **managerial review complete**, and **authorized report delivered**. These are different states. When a platform lacks readback access, distinguish “send command accepted” from “post independently verified.”
 
 ### 8. Add a distinct messaging identity only when needed
 

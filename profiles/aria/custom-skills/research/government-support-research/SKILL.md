@@ -1,0 +1,139 @@
+---
+name: government-support-research
+description: "Use when researching public grants and support programs."
+version: 1.0.1
+author: ARIA
+license: MIT
+metadata:
+  hermes:
+    tags: [government-support, grants, eligibility, korea, research, citations]
+    category: research
+---
+
+# Government Support Research
+
+Research public grants, R&D programs, vouchers, financing, accelerators, and
+non-cash support for a specific company. Optimize for **actual eligibility and
+actionability**, not for the largest headline amount.
+
+## When to Use
+
+Use for current grant searches, public R&D opportunity scans, regional support
+matching, eligibility reviews, and next-cycle funding roadmaps. Also use when a
+founder's career must be translated into a realistic public-support strategy.
+
+## Inputs to Establish
+
+Before ranking programs, extract or retrieve:
+
+1. Legal entity type, opening/incorporation date, headquarters and workplaces.
+2. Employee count, revenue band, industry codes, and SME/startup status.
+3. Product ownership: idea, demo, MVP, paid product, IP, certification, or only
+   consulting/custom-development experience.
+4. Prior government R&D and commercialization awards.
+5. Available partners: customer, manufacturer, hospital, university, investor.
+6. Cash matching capacity and application-writing capacity.
+7. Research cutoff in the program's legal timezone.
+
+Unknowns that can change eligibility must remain explicit. Never infer product
+ownership, regulatory approval, revenue, prior R&D, or a partner commitment from
+the founder's career alone.
+
+## Research Procedure
+
+1. **Set an exact cutoff timestamp.** Use the program jurisdiction's timezone.
+2. **Search official sources first.** Use the portals and agency list in
+   `references/korea-portals-and-checklist.md` for Korean programs.
+3. **Separate status strictly:**
+   - open now;
+   - announced but not yet open;
+   - rolling / while budget remains;
+   - closed, retained only as a next-cycle planning signal.
+4. **Open the full notice and attachment.** Portal summaries are discovery
+   aids, not sufficient eligibility evidence. Read the PDF/HWP or originating
+   agency notice when a condition is load-bearing.
+5. **Build an eligibility matrix** containing applicant type, age, location,
+   industry, revenue, prior-award condition, consortium, matching funds,
+   product/IP/certification, deadline, and exclusion rules.
+6. **Apply hard gates before scoring fit.** A strong technical résumé does not
+   override a missing consortium, region restriction, required prior R&D,
+   relocation obligation, team-size rule, or different-industry incorporation
+   requirement.
+7. **Rank by realistic actionability:** hard eligibility → deadline feasibility
+   → product/partner readiness → strategic fit → support value.
+8. **Read capacity against the deadline.** For a solo company, do not recommend
+   several simultaneous applications without a primary choice and a stop/go
+   gate.
+9. **Cite every external claim** using `grounded-citations`; verify the written
+   report before delivery.
+
+## Program Fit Categories
+
+Use these labels consistently:
+
+- **Apply now:** all hard gates appear satisfied and required evidence/partner
+  can be assembled before the deadline.
+- **Apply after one check:** one retrievable fact or partner confirmation remains.
+- **Partner only:** company cannot lead but can join an eligible consortium.
+- **Capability-building:** consultation, testing, certification, export booth,
+  or training rather than cash.
+- **Next-cycle pipeline:** closed this year; useful for concrete preparation.
+- **Exclude:** a hard gate conflicts with known facts.
+
+## Required Output
+
+Lead with a decision, then provide:
+
+1. Top 1–3 immediate opportunities with deadline and days remaining.
+2. Exact support form: grant, voucher, R&D reimbursement, loan/interest subsidy,
+   in-kind service, competition prize, or export support.
+3. Hard eligibility and unresolved checks.
+4. Why the company's **owned product and evidence** fit—not merely why the
+   founder's résumé sounds related.
+5. A recommended project framing.
+6. Excluded attractive-looking programs and the disqualifying reason.
+7. A 3–6 month and next-cycle preparation pipeline.
+8. Official source links and a verified report artifact when the task is broad.
+
+## Citation and Parallel-Research Discipline
+
+- Create a task-specific citation ledger. Do not let concurrent workers reset or
+  mutate the default ledger.
+- Give each subagent a unique ledger, or have subagents return URLs without
+  numbering and register the deduplicated URLs in one parent-owned final ledger.
+- Never merge prose that carries child-local citation numbers.
+- Render the final Sources block mechanically and run strict verification.
+
+## Common Pitfalls
+
+- Ranking a large grant above a small program despite a hidden hard-gate failure.
+- Treating `while budget remains` as proof that funds remain; verify with the
+  operator before application.
+- Calling a loan, guarantee, booth, consultation, or in-kind service a grant.
+- Assuming an existing founder can use a program that requires a new business or
+  a different industry code.
+- Assuming one-person status is allowed merely because the summary omits a
+  minimum headcount; state that the full notice showed no exclusion and confirm
+  when material.
+- Recommending healthcare support based only on consulting history when the
+  notice requires a company-owned product, device registration, clinical site,
+  or hospital consortium.
+- Recommending a consortium program without naming the missing partner and the
+  deadline for securing it.
+- Reusing annual program dates or amounts as future facts. Mark next-year terms
+  unannounced and use the prior notice only as a preparation reference.
+- Writing all discovered programs into the answer. Exclude low-fit items and
+  preserve attention for the few actionable choices.
+
+## Verification Checklist
+
+- [ ] Cutoff timestamp and timezone stated.
+- [ ] Every recommended program is open/announced as labeled.
+- [ ] Full notice or attachment checked for hard gates.
+- [ ] Support type is named accurately.
+- [ ] Known facts, inferred fit, and unresolved checks are separated.
+- [ ] Deadline arithmetic is tool-computed.
+- [ ] Solo-company workload has a primary recommendation and fallback.
+- [ ] Closed programs are clearly separated from current opportunities.
+- [ ] Citation ledger is isolated from parallel workers.
+- [ ] Sources block and citation coverage verify successfully.
