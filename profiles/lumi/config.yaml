@@ -1,0 +1,3 @@
+model:
+  provider: openai-codex
+  default: gpt-6-astra

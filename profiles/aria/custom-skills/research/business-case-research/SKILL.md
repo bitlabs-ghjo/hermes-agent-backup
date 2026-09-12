@@ -81,6 +81,7 @@ Each case row should answer: **What changed in the workflow, what measurable res
 - Do not use a search snippet to support a claim that requires the full page or transcript.
 - Do not let a citation coverage percentage hide uncited table claims; tables need a separate row-level citation check.
 - Do not register sources after drafting from memory. Add URLs to the citation ledger as they are retrieved.
+- Do not deliver while a mandatory delegated research stream is still outstanding. Merge and verify all promised evidence first; if material evidence arrives after delivery, issue a clearly labeled revision under fresh approval rather than silently replacing the local file.
 - Do not announce delivery from a successful send command alone. Verify the exact channel, message text, and attachment name by reading the target back.
 
 ## Verification Checklist

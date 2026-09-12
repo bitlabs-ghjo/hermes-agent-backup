@@ -1,5 +1,5 @@
 {
   "profile": "eden",
   "source": "$HERMES_DATA_ROOT/profiles/eden",
-  "custom_skills": 0
+  "custom_skills": 1
 }

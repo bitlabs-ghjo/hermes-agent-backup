@@ -196,6 +196,16 @@ A separate Hermes profile does not automatically become a separate Slack user. A
 
 Follow `references/hermes-slack-profile-onboarding.md` and keep platform credentials out of chat transcripts.
 
+### 8a. Make staff visually distinguishable in messaging
+
+For bitlabs, preserve the approved character portraits and requested name labels, but give each worker a distinct full-background color. The user found identical backgrounds hard to distinguish in Slack messages; a shared name-band color or thin colored border alone is not enough. Keep typography and composition consistent while varying the dominant background. Enlarge faces rather than shrinking an entire employee badge into an avatar. Do not rely on tiny name text or color alone for identity.
+
+Read `references/staff-avatar-qa.md` when preparing or revising profile icons. Verify a contact sheet at actual small-message sizes as well as the full-resolution exports before delivery.
+
+### 8b. Resume onboarding after approval interruptions
+
+A protected-file approval timeout is not consent. Stop the blocked write and do not route around it through a different tool. Explain the incomplete stage and request explicit renewed approval. Once the user renews approval, retry through the normal guarded tool, finish both SOUL.md and ROLE.md, and run a no-tools identity probe that checks name, role, reporting line, and external-send approval policy. Do not recreate an existing profile or copy another worker's credentials to make the probe pass. Report profile creation, identity verification, manifest preparation, and live Slack connection as separate readiness states.
+
 ## Verification checklist
 
 - [ ] Profile exists under the intended Hermes data root.

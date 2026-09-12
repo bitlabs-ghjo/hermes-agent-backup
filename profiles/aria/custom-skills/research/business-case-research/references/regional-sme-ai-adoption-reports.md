@@ -27,7 +27,20 @@ Write the core question as: **Which loss will be reduced, with which data, measu
 5. Three to five pilots with duration, inputs, KPI, human approval, and stop criteria.
 6. A 90-day plan with decision gates, not a guaranteed rollout.
 7. Sales/education conversion: audience promise, session outputs, consultation questions, and usable campaign copy.
-8. Evidence limits and security controls.
+8. Local execution ecosystem: public labs, support institutions, and qualified suppliers that can support a pilot. Keep this separate from adopter outcome cases, and do not treat supplier capability claims as realized customer ROI.
+9. Evidence limits and security controls.
+
+## Research Orchestration and Revisions
+
+When delegated research is part of the promised evidence set, treat the artifact as incomplete until every mandatory worker result has arrived and been merged. Continue independent collection and drafting while workers run, but do not seek delivery approval or post the report from a partial transcript.
+
+If material evidence arrives after an approved delivery:
+
+1. compare it against the delivered artifact and add only verified, decision-relevant findings;
+2. label the result as a revision and state what changed, including case/source counts;
+3. rerun citation, row-count, anchor, and artifact checks;
+4. request fresh delivery approval with the complete replacement message and attachment;
+5. tell readers which revision supersedes the earlier attachment—editing the local source file does not update an already-uploaded copy.
 
 ## Case Selection
 

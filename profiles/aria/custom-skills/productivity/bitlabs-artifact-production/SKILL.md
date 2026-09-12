@@ -26,6 +26,7 @@ Use this skill whenever bitlabs asks to create, package, revise, verify, or deli
 - Do not interpret phrases such as “파일로 정리” or “자료로 만들어” as permission to choose an Office format.
 - When the user names a format, preserve it exactly. If native production is unavailable, explain the limitation and propose the closest compatible alternative before substituting.
 - Markdown is an internal drafting and source-management format, not the default user deliverable.
+- App icons and avatars are image deliverables, not documents: when requested, produce upload-ready PNGs rather than an HTML substitute. Reuse approved character art, crop without distortion, remove badge text, and verify dimensions plus facial framing. See `references/app-icon-derivatives.md` for the workflow.
 
 ## Procedure
 
