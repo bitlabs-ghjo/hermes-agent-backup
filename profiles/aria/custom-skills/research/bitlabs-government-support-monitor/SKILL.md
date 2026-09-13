@@ -90,7 +90,11 @@ HTML에 핵심 조건이 없으면 관련성이 명백한 제목·요약일 때�
 
 - 목록 단계에서 첨부파일부터 내려받지 않는다.
 - 기업마당은 `rows=50` 요청에도 실제 15개 행을 반환할 수 있다. 요청한 페이지 크기를 신뢰하지 말고 실제 공고 행 수·마지막 등록일·다음 페이지 링크로 48시간 겹침구간 끝까지 검증한다.
+- 스마트공장 SPA 목록이 비면 공개 JavaScript에서 `/usr/bg/ba/ma/bsnsPbanc/selectBsnsPbancPage.do`와 `/usr/bg/ba/ma/bsnsPbanc/selectBsnsPbancDtlPage.do` 호출 형식을 확인한다. 상세 조회는 `key=info`, `pbancId`, `pbancSn`을 사용하며 반환된 HTML 본문으로 적합성을 먼저 판정한다. 정적 chunk 해시는 변경되므로 하드코딩하지 않는다. 목록의 미래 공고일은 현재 신규로 보고하지 않는다.
+- KIAT K-PASS가 접수기간만 표시하면 KIAT 공식 홈페이지의 `/front/board/boardContentsListAjax.do?board_id=90&miv_pageNo=1&miv_pageSize=10` 목록을 대안으로 확인한다. 목록 전체 업데이트 시각은 개별 공고 수정일로 사용하지 않는다.
 - HTTP 200이나 홈페이지 미리보기만으로 출처 성공을 선언하지 않는다. 울산TP 지원사업 목록이 비어 있으면 페이지의 `/sub02/js/re_ancmt.js`가 가리키는 공식 `/proc/re_ancmt/list.php`를 확인한다. 고정 공고를 일반 최신 공고와 분리해 페이지 경계를 검증한다.
+- 울산시 고시공고 `contents.ulsan?mId=001004002000000000`는 `/u/rep/transfer/notice/list.ulsan?mId=001004002000000000`로 리디렉션된다. 페이지 이동은 최종 목록 URL에 `curPage=N`을 붙인다(원 contents URL에서는 curPage가 소실되어 첫 페이지 반복 가능). 상세 URL도 최종 경로 기준으로 해석하고 ID는 숫자와 `gosiGbn`을 함께 쓴다(같은 숫자가 A/N에 중복 존재). 반복 페이지는 행 ID 집합으로 감지한다.
+- 울산TP 공식 API가 JSON 객체 대신 `true`만 반환하면 정상 목록으로 간주하지 말고 `www.utp.or.kr` 호스트로 재시도한다. API의 `is_gonggi=Y` 고정 항목을 모두 지난 다음 `N` 일반 항목의 게시일 경계를 확인한다.
 - 게시일·접수기간을 수정시각으로 대신 저장하지 않는다. 수정시각 미노출은 공백으로 명시하고, 기준선 이전 미관측 항목은 신규 발생으로 단정하지 않는다.
 - 제목에 `AI`가 있다는 이유만으로 관련 공고로 판정하지 않는다.
 - 대표 개인 경력과 회사가 보유한 제품·인허가·실적을 혼동하지 않는다.

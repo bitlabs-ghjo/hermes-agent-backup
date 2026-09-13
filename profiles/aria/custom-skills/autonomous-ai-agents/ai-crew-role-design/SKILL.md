@@ -196,6 +196,8 @@ A separate Hermes profile does not automatically become a separate Slack user. A
 
 Follow `references/hermes-slack-profile-onboarding.md` and keep platform credentials out of chat transcripts.
 
+Validate the human allowlist before declaring the worker ready: Slack Member IDs are not DM/channel IDs. If the bot is connected but silent, inspect its profile-scoped logs for authorization rejection before changing tokens, reinstalling the app, or testing the model. Compare only non-secret allowlist values against a trusted operator identity; do not infer identity from display names. Correcting an allowlist changes access permissions and needs the applicable explicit approval. Distinguish configuration saved, process running, Socket Mode connected, authorized message accepted, response delivered, and restart persistence—none proves the next. When an operator posts `@Specialist` inside the manager's DM, explain the routing rather than impersonating the specialist or claiming a handoff.
+
 ### 8a. Make staff visually distinguishable in messaging
 
 For bitlabs, preserve the approved character portraits and requested name labels, but give each worker a distinct full-background color. The user found identical backgrounds hard to distinguish in Slack messages; a shared name-band color or thin colored border alone is not enough. Keep typography and composition consistent while varying the dominant background. Enlarge faces rather than shrinking an entire employee badge into an avatar. Do not rely on tiny name text or color alone for identity.

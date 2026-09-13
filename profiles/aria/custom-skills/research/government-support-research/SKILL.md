@@ -67,6 +67,34 @@ the founder's career alone.
 9. **Cite every external claim** using `grounded-citations`; verify the written
    report before delivery.
 
+## Identifying Unnamed Programs and Supplier Routes
+
+When the user only recalls a promotional claim (for example, “AI training is
+90% reimbursed”), investigate the claim rather than requiring the user to find
+the original video. Search the benefit phrase with the beneficiary, subject,
+year, and provider-recruitment terms. Treat matching programs as candidates,
+not proof of which video the user saw. Ask for a link only if unresolved
+ambiguity materially changes the recommendation after research.
+
+For supplier participation, distinguish the purchasing company's eligibility
+from the training provider's eligibility and individual course approval. Read
+the provider recruitment attachment before recommending certification or a
+partner-only route: a specific scheme may explicitly admit uncertified
+providers even when other vocational-training schemes require certification.
+Check infrastructure evidence, instructor credentials, application documents,
+and sole-proprietor treatment separately. An absent exclusion is not confirmed
+eligibility, and eligibility is not selection.
+
+Explain who receives the reimbursement, its calculation base (actual paid fee
+versus a reference rate), limits, and conditional regional uplifts. Do not
+transfer generic reimbursement rules to a named scheme. Separate provider
+application deadlines from learner enrollment dates; ongoing classes do not
+prove supplier recruitment is open. If primary evidence changes an earlier
+recommendation, explicitly correct it.
+
+For a worked official-source example and retrieval approach, see
+`references/korean-training-provider-research.md`.
+
 ## Program Fit Categories
 
 Use these labels consistently:

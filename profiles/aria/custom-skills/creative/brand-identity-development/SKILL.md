@@ -169,6 +169,18 @@ A reliable review package can pair an interactive comparison board with raster p
 
 See `references/multilingual-print-verification.md` for the condensed font, raster-proof, and printer-handoff checklist.
 
+### 9. Review an existing design-system handoff
+
+When reviewing another designer's package, inspect the supplied assets rather than merely endorsing its handoff report. Separate **author-reported QA**, **reviewer-repeated checks**, and **remaining release gates**. A conditional recommendation of a direction is not official CI approval.
+
+- Distinguish known company services from an unknown target customer or project brief; do not repeat an overly broad “business unknown” label.
+- Audit governance copy inside templates: content reviewers do not automatically have authority to approve prices, contracts, publication, or deployment.
+- Keep company symbols and already-approved staff character avatars as separate asset scopes unless replacement is explicitly approved.
+- Prefer one realistic, representative application over adding more empty templates or logo directions. Check actual content density and keep internal editing instructions distinct from customer-facing content.
+- Present actionable feedback with priorities, next-version acceptance criteria, and unresolved decisions. Separately gate delivery; message-post success does not establish that the designer read it or began work.
+
+See `references/design-handoff-review.md` for package checks, evidence accounting, and feedback structure.
+
 ## Deliverable Structure
 
 1. Conclusion and recommended direction

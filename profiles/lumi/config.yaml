@@ -1,3 +1,6 @@
 model:
   provider: openai-codex
   default: gpt-6-astra
+onboarding:
+  seen:
+    busy_input_prompt: true
