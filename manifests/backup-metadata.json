@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-13T03:15:18+00:00",
+  "created_at_utc": "2026-09-14T03:15:29+00:00",
   "profile_count": 6,
   "profiles": [
     "default",
@@ -14,10 +14,11 @@
   "checksums_sha256": {
     "profiles/aria/SOUL.md": "1ee8f4e5fe72a2e9dc9cf291f27485864e9f29b0d8852ef3dbe8992ae58aee1d",
     "profiles/aria/config.yaml": "088aaaf49112e7c6a9bcc6730925f41893891be3f13ef8443ec1084e8a4d8d75",
-    "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/SKILL.md": "58968c2005ffce9a77fa1c4273f5ed190ad7a44a8b9fa9b39b7fdca1ab1a0792",
+    "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/SKILL.md": "bf3bbe7a7f6e526dc6fe8a3479e77f63a8ccc0e4cf655ed5a79aa76cb8ed3c74",
     "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/references/hermes-slack-profile-onboarding.md": "b3c22d037e742f0cd98c859cf302c7fcb61986843f768ce378a7ac97ac1b2aeb",
     "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/references/profile-assignment-handoff.md": "d61ce6fd923334030daa26a4dc589a1654dd061d7e5de8143861bb27c5047f03",
-    "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/references/staff-avatar-qa.md": "37fb85e0c920de6efbdfa43dec79586475b48478efc13e67eea03d11371fee4f",
+    "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/references/source-based-consultation.md": "b13abfcf1a1ef5f80cd3ddb655b31de51418a38ed50377d74af0219ba719f15f",
+    "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/references/staff-avatar-qa.md": "829f9da9366e884a2411755483f4a6d8fa6b3a6249f182937391bdd969446607",
     "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/templates/role-interview.md": "a7be474c6f9528bf93c6ad68d292550b3102ba4bb6234ed489862f1757c1e3e6",
     "profiles/aria/custom-skills/autonomous-ai-agents/ai-crew-role-design/templates/soul-role.md": "410169e7c318af6a2e3242065faf6c77503b8b472e9061c3b2f0c6f6b40ced10",
     "profiles/aria/custom-skills/creative/brand-identity-development/SKILL.md": "afd4b9f29429361fbc3ca52f598c0e08f423baee6e873774a20a3dbe6a8bd6d9",
@@ -31,7 +32,7 @@
     "profiles/aria/custom-skills/creative/professional-presentation-design/references/reusable-proposal-deck-workflow.md": "b9930383630bc865d7d46a02f0e15d925a7266c361724920790ab2fda0a65146",
     "profiles/aria/custom-skills/devops/hermes-backup-recovery/SKILL.md": "46df11428163031d25c18724145b94a60af65b17bc653ab035fbdb925c40a12b",
     "profiles/aria/custom-skills/devops/hermes-backup-recovery/references/multi-profile-git-backup.md": "8c38f1bc14e18ffd15f92cd8d72351da21c603a2c0f472c4384d77cde784df2b",
-    "profiles/aria/custom-skills/productivity/bitlabs-artifact-production/SKILL.md": "649c3d3aa052252daddbac3d722318120a2843ca9439e4c623d6d70ab437d6bf",
+    "profiles/aria/custom-skills/productivity/bitlabs-artifact-production/SKILL.md": "0e6b89d60e9d1b1b4a9f38532c76899da37082a497ab470a78892cbe96de4fd0",
     "profiles/aria/custom-skills/productivity/bitlabs-artifact-production/references/app-icon-derivatives.md": "339406f79e043bc6dc3f0e528cd3e33d97692051d50ed26b6830d95831980f3a",
     "profiles/aria/custom-skills/productivity/bitlabs-artifact-production/references/html-delivery-checklist.md": "a76475167541b5c2c57381b1c064e559484a0e93dfbb4dcc500b48a72fbf1445",
     "profiles/aria/custom-skills/productivity/bitlabs-artifact-production/references/self-contained-html-media.md": "318159f75c6bd612466e2c1ada0043c9db1eba6f4ab53a378a77594700229d43",
@@ -39,7 +40,7 @@
     "profiles/aria/custom-skills/productivity/business-ai-workshop-design/references/two-hour-ax-blueprint.md": "aa215387b2b44254df44c0be4311198019ccc0454ffd7aafb2d6c19be4258c98",
     "profiles/aria/custom-skills/productivity/conversational-task-management/SKILL.md": "f072b151b251303ca0613ab5b66e05c499b9d348fa6e5f20fb6875ec94856978",
     "profiles/aria/custom-skills/productivity/conversational-task-management/references/bitlabs-slack-gtd.md": "db7f8e35933ac3d01b280f7381ca012da1efab7d23afae76396be3c86cd489ff",
-    "profiles/aria/custom-skills/research/bitlabs-government-support-monitor/SKILL.md": "48b79218e5c4d33730a8df5342441db731998f075f2d9f17af103e6d549ecb39",
+    "profiles/aria/custom-skills/research/bitlabs-government-support-monitor/SKILL.md": "946444321715df70e2c6b6bed7b1321ec7dcee3b37482694a69d798df1c9e984",
     "profiles/aria/custom-skills/research/business-case-research/SKILL.md": "926152e277459d699dccf7992b45b1677d53e6d5c5206d86c36bfb135bfe33ed",
     "profiles/aria/custom-skills/research/business-case-research/references/regional-sme-ai-adoption-reports.md": "9b6390526536ccad4a85f1e895ffe5bb4304038d5a03fc98d9dea444397a9966",
     "profiles/aria/custom-skills/research/business-case-research/references/youtube-evidence-and-delivery.md": "d55fed216a49da83110198417d0b8f565557e3d9724a0fd791ba0806577f9cf2",
@@ -88,10 +89,12 @@
     "profiles/lumi/skills.manifest": "bbf1cf0f4fe1e0895d8284cdbff979172ee4c99fc6244f1e47415d54ef4da650",
     "profiles/mira/SOUL.md": "037394c6f3ad1d766a4ae61a857508c3f2b525df3f0061f5944a2a96d346e6b1",
     "profiles/mira/config.yaml": "60420feb08aec2ce1f9605d84c66df7534e2bb3871ce4f63ee66a322472b7d4e",
+    "profiles/mira/custom-skills/research/business-research-reporting/SKILL.md": "2bdb8185a1c3f8141e16bce9d3914d77c6d145a45261db890800e3426ce2ade0",
+    "profiles/mira/custom-skills/research/business-research-reporting/references/html-report-delivery.md": "279ba27695e0e2792a3040f70916d6cf80b7e1531543c08255a2b5824e746e23",
     "profiles/mira/custom-skills/research/government-program-research/SKILL.md": "6d21882cdfc7747d140640cacaeae70a60b3291d8043e65515516dd839138b56",
     "profiles/mira/custom-skills/research/government-program-research/references/modoo-startup-2026.md": "3ea6e77b3f269a7dab8f9333b9683287d1c4d496362d0a44d36b6cf6b41a8bb0",
     "profiles/mira/env.example": "449ffe16100afcbdf20df1c60d43e88e7de5f6b941cfabaa1afea10e79b6f507",
-    "profiles/mira/profile-metadata.json": "b092f4b4610f4f775d7ca8574faf3c18975a7abf3bdff1502a982403d3572be4",
+    "profiles/mira/profile-metadata.json": "f8d646ac0a15a6e76b5d6dadbe36e71f8ca80e6a191b3e25da4be32cdad9bf3f",
     "profiles/mira/skills.manifest": "bbf1cf0f4fe1e0895d8284cdbff979172ee4c99fc6244f1e47415d54ef4da650",
     "system/active_profile": "295812f2fcab8af8b86ba8b30ab3e56dfb401fc13ff4ea5ebc4a79ba025c468f"
   }

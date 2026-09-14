@@ -41,6 +41,15 @@ Use this skill whenever bitlabs asks to create, package, revise, verify, or deli
 9. **Prepare delivery separately.** File creation does not authorize Slack posting, email, sharing, or any external state change. Present recipient, purpose, complete message, attachment, links, and impact; execute only after the required approval.
 10. **Report concisely.** State the artifact, verification performed, and delivery location or pending approval. Do not attach an unrequested derivative format.
 
+## Artifact Handoff and Design Feedback
+
+- When the user asks when they can see results, inspect current artifacts and handoff records before answering. Distinguish available preview, corrected/reviewed version, and full package; do not repeat an old incomplete status if newer files exist. Give only a confirmed ETA, explicitly labeling an estimate if used.
+- When asked where files are or to show the whole design, provide accessible attachments or verified links in the authorized destination, not just server paths or another status report. Include short opening instructions. Respect delivery approval rules; do not claim an attachment was received based only on composing its media marker.
+- For a complete design package, inspect the archive inventory and integrity, confirm expected entry pages and required local assets are included, and identify the starting HTML file. Explain whether course material is a representative excerpt or the complete requested course. A complete archive does not mean content, QA, or release approval is complete.
+- When asked for a design opinion, inspect actual rendered screens before evaluating. Lead with an independent recommendation, then concrete strengths and prioritized improvements tied to visible evidence. Do not merely agree with the user's positive reaction.
+- Long-page screenshots can shrink text and show fixed-position bars across content. Inspect native-size crops or live viewport/print behavior before asserting a layout defect; report unresolved capture artifacts as hypotheses. Static checks and archive integrity are not visual approval.
+- Treat positive aesthetic feedback as design-direction feedback, not authorization to publish or a waiver of factual, contractual, accessibility, or final-review checks.
+
 ## HTML Quality Requirements
 
 - Use the bitlabs visual language when no client brand overrides it: deep navy, teal, bright body surface, Pretendard-first typography, practical and trustworthy tone.

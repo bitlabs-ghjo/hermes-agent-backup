@@ -24,7 +24,9 @@ Use this skill when the user wants to:
 - establish reporting lines, evidence standards, approval boundaries, and confidentiality
 - expose a specialist profile as a distinct Slack bot or other messaging identity
 
-Do not use it for a temporary role-play prompt or a single delegated task.
+Do not use it for a temporary role-play prompt or generic one-off subagent task. Do use its handoff and review guidance when the user asks to consult an existing named staff member: this is real-profile coordination, not role-play or onboarding a new worker.
+
+For source-based staff consultations, see `references/source-based-consultation.md`. Keep discussion authority separate from execution authority, request the specialist's objections, and verify revised artifacts before reporting agreement.
 
 ## Supporting files
 
@@ -190,6 +192,30 @@ A reporting line on paper does not make work visible to the manager. When an exe
 
 A useful status report separates **request confirmed**, **work running**, **deliverable produced**, **managerial review complete**, and **authorized report delivered**. These are different states. When a platform lacks readback access, distinguish “send command accepted” from “post independently verified.”
 
+### 7b. bitlabs mandatory onboarding: manager-first handoff
+
+For every new bitlabs worker, onboarding includes the operating chain **worker → ARIA review → worker revision → ARIA re-review → executive final report**. The executive must not be used as the routine message relay, even when the executive assigned the original task directly.
+
+Before declaring a new worker operational:
+
+1. Encode the chain in both SOUL.md and ROLE.md. ARIA owns assignment coordination, progress checks, review, revision requests, and final reporting; the worker owns deliverables and corrections.
+2. Teach and verify a real internal profile-to-profile handoff using `references/profile-assignment-handoff.md`. Check the current Hermes documentation and local CLI help before executing commands. A missing Slack posting tool is not proof that internal reporting is unavailable. A literal `@ARIA` string is not proof of a real mention or delivery.
+3. Run a non-confidential test packet from the actual worker profile to the actual ARIA profile. Require an absolute artifact path, revision comparison, unfinished items, blockers, and next submission time (or explicitly unknown).
+4. Require ARIA's file-backed receipt/review, one correction response from the worker, and ARIA's re-review. Read the actual artifacts; do not substitute a temporary role-playing subagent. Record delivered, produced, reviewed, and reported as separate states.
+5. Route authorized regular/ad-hoc reports and final reports to Slack `9-report` (`C0C0AQ6B71T`); keep the originating channel to acknowledgment/progress/report-location notices. Scheduled reports explicitly use `slack:C0C0AQ6B71T`. Retain the applicable send-approval rules; this route alone is not blanket permission for customer-facing sends or publication.
+6. Exclude or irreversibly mask HR, salary, investment, contract, and customer information in the report channel. Request approval and a safe path when originals are necessary.
+7. If internal delivery fails, inspect available tools, real profile state, existing receipt artifacts, and timeouts before asking the executive to relay anything. Escalate the precise blocker to ARIA; never claim a successful delivery without evidence.
+
+Onboarding is incomplete until the internal handoff/revision loop is verified. A written policy or working Slack bot alone does not pass this gate. Do not create a new worker, edit other profiles, change credentials/permissions, or send external messages without the applicable explicit authorization.
+
+### 7c. Operationalize recurring research assignments
+
+For bitlabs opportunity research, qualify actual customer problems rather than collecting generic AI success stories. 조대표님's required outcome is **evidence-backed field problem → reusable education exercise → consulting diagnosis → small solution pilot → repeatable product opportunity**. Require the task owner, current workflow, pain and frequency, public demand evidence with dates/URLs, required data, anonymized or synthetic-data exercise, consulting scope, MVP, measurable outcome, and remaining validation questions. Separate expressed need from analyst inference and willingness to pay. Do not pad a target item count with unsupported examples; deduplicate across reports.
+
+When changing a recurring staff assignment, list existing jobs first and update the matching job rather than creating a duplicate. Preserve the owner, evidence criteria, approval boundaries, destination, and continuity; change both the schedule and any stale cadence text in the prompt/name. Retain the previously agreed local time when the user changes only weekdays. Verify the saved target and compute its next local execution with timezone-aware code, including day rollover.
+
+Do not silently reinterpret a requested report deadline as a research start time. Explain the distinction and arrange preparation/review before a fixed delivery deadline, or obtain agreement to delivery after completion. A saved cron prompt naming MIRA is only a configured future handoff—not proof that MIRA has received or executed the task. Keep registration, actual specialist receipt, artifact review, and delivery verification separate. Conflicting scheduler health signals require scoped evidence, not a blanket claim that scheduling is either working or broken.
+
 ### 8. Add a distinct messaging identity only when needed
 
 A separate Hermes profile does not automatically become a separate Slack user. A distinct `@Name` requires a distinct Slack app, bot token, app token, and profile-scoped gateway configuration.
@@ -202,7 +228,11 @@ Validate the human allowlist before declaring the worker ready: Slack Member IDs
 
 For bitlabs, preserve the approved character portraits and requested name labels, but give each worker a distinct full-background color. The user found identical backgrounds hard to distinguish in Slack messages; a shared name-band color or thin colored border alone is not enough. Keep typography and composition consistent while varying the dominant background. Enlarge faces rather than shrinking an entire employee badge into an avatar. Do not rely on tiny name text or color alone for identity.
 
-Read `references/staff-avatar-qa.md` when preparing or revising profile icons. Verify a contact sheet at actual small-message sizes as well as the full-resolution exports before delivery.
+Read `references/staff-avatar-qa.md` when preparing or revising profile icons, including its manager-assisted generation and release-status checks. Verify a contact sheet at actual small-message sizes as well as the full-resolution exports before delivery.
+
+When a specialist lacks an image-generation capability, inspect the manager's currently available authorized tools before escalating to the executive. The manager may generate a reference-based source and return its absolute path and provenance to the real specialist for layout, packaging, and revision; do not attribute that generation to the specialist. Preserve approval and confidentiality boundaries, and do not copy credentials or bypass a denied action.
+
+Do not quietly replace the approved full-background color requirement with a thin color frame to solve segmentation defects. An original-background-plus-frame version may be presented as a clearly labeled alternative requiring a decision, not as full compliance. Keep technical validation, ARIA design review, executive acceptance, and actual Slack application as separate states. Before delivery, reconcile status labels inside previews, HTML, manifests, and archives; a chat disclaimer should not be the only correction to stale 'review pending' packaging.
 
 ### 8b. Resume onboarding after approval interruptions
 
