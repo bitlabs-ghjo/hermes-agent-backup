@@ -41,6 +41,18 @@ Ask only when missing information would materially change safety, delivery mode,
 
 ## Procedure
 
+### 0. Validate demand before fixing the curriculum
+
+When asked to research what business owners need, begin with business problems rather than assuming that every need calls for AI training. Separate four evidence layers: official operating difficulties, existing course supply, directly expressed learning needs, and willingness to attend/pay. Neither operating-difficulty percentages nor course listings establish purchase demand. Record the reference year separately from publication/access dates; never relabel digital/smart-technology adoption as AI adoption or national findings as verified local demand.
+
+Present topic priorities as planning hypotheses unless directly supported by demand research. Map each problem to an educational outcome and distinguish AI-assisted work from accounting, labor, legal, or other qualified professional advice. Compare existing public/free courses before recommending a paid product; test differentiation through reviewed, reusable outputs and follow-up rather than novelty of tools.
+
+For a first pilot, recruit around the same frequent, verifiable task, not industry labels alone. Select one task for the introductory session and put other topics into optional later modules. A facts-based FAQ can be safer than complaint/review responses involving compensation or policy interpretation. Change the task if interviews show low frequency or little value.
+
+Include a ready-to-use interview guide covering the last real incident, frequency, time, current workaround, devices, failed past training, desired artifact, availability, and willingness to pay. Mark interviews, recruitment, budgets, and external invitations as proposed until actually authorized and performed. Pilot success thresholds are design choices, not market statistics. Measure time including human review; classroom before/after exercises with different questions or practice effects do not prove productivity gains, and revenue changes cannot automatically be attributed to the course.
+
+For the evidence ladder, interview guide, and small-business pilot example, read `references/small-business-demand-validation.md`.
+
 ### 1. Define one observable exit outcome
 
 Write a promise in this form:

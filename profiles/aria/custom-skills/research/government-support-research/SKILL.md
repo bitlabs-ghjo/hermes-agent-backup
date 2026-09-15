@@ -95,6 +95,45 @@ recommendation, explicitly correct it.
 For a worked official-source example and retrieval approach, see
 `references/korean-training-provider-research.md`.
 
+## Small Manufacturing Projects: Demand, Funding, and Delivery
+
+For bitlabs, rank a narrow, evidence-backed field problem before optimizing for
+subsidy size. Keep **commercial validation priority** separate from **fit to a
+currently open program**; they may be different items. Ease of implementation
+is not proof of repeated pain or willingness to pay. A historical RFP supports
+only the problem it actually states: for example, fragmented alarm handling
+does not itself prove duplicate alarms. Label the proposed smaller feature as
+a product hypothesis.
+
+Before recommending a supplier route, trace the money and continuing duties:
+who applies, spends first, receives reimbursement, and may invoice whom;
+allowed expense categories; VAT and excluded costs; supplier registration;
+new-company substitutes for missing historical financial statements; sole-owner
+participation evidence; pre-award work exclusions; source-code/model/data
+submission or publication; and multi-year logging or maintenance obligations.
+Do not equate a consortium's support ceiling with the supplier's revenue.
+A broad phrase such as “source-code implementation” does not settle whether
+supplier development fees are eligible when the expense table lists only
+materials and infrastructure.
+
+Search additional, second-round, amended, and reopened notices before declaring
+a program closed. Reconcile the same program across workers using notice IDs,
+publication dates, attachments, and jurisdiction-local time. Preserve conflicting
+clauses inside an official notice—such as a fixed deadline alongside an
+undated early-closure warning, or email versus online submission—and request
+operator confirmation rather than silently choosing one.
+
+For a solo firm, favor one team, one document type or line, exported/read-only
+inputs, and human confirmation. Compare existing tools and deterministic rules
+before adding AI. Set performance thresholds after measuring the customer's
+baseline and error costs; do not invent uniform accuracy or time-saving targets.
+When a consortium deadline is close and no qualified partner is already ready,
+recommend deferral rather than hastily assembling a partnership. AI staff do
+not satisfy human headcount requirements.
+
+See `references/manufacturing-microproject-due-diligence.md` for a worked
+source-reading example and the validated official-portal retrieval pattern.
+
 ## Program Fit Categories
 
 Use these labels consistently:
