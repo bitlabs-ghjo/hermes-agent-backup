@@ -67,6 +67,39 @@ the founder's career alone.
 9. **Cite every external claim** using `grounded-citations`; verify the written
    report before delivery.
 
+## Exhaustive Agency / Year Inventories
+
+When the user requests **all** programs for an agency, topic, and year, completeness
+within that scope takes precedence over fit-based shortlisting. Keep every relevant
+program in the inventory, including closed calls; put the actionable recommendation
+in a separate summary. Do not silently discard low-fit programs.
+
+- Inspect both the current support board and legacy/global search. A global search
+  may omit a newer JavaScript-backed board. An empty HTML table or missing search
+  parameter is not evidence of zero programs: inspect the form and page scripts,
+  then retrieve the public read-only endpoint actually used by the page.
+- Search topic variants and reconcile the year’s board listings where practical.
+  Save each batch with stable notice IDs; paginate to the declared total, dedupe,
+  and compare collected counts programmatically. Check prior-year announcements
+  that explicitly concern the target year rather than filtering only by posting date.
+- Report three distinct counts: parent programs, recruitment notices/rounds, and
+  unique support tracks. Never sum repeat-round budgets without evidence that they
+  are separate appropriations.
+- Build a round-by-track matrix. Compare attached notices for changed eligibility,
+  facilities, supported items, deadlines, and cash versus in-kind support. A stale
+  form heading does not establish that an omitted track was reopened.
+- Read every relevant full notice; verify extraction coverage per page and visually
+  inspect merged tables carrying important amounts or area thresholds. Record
+  conflicting age/date ranges and specific versus general matching-fund clauses
+  without choosing the more favorable interpretation.
+- Separate press-release plans, networking events, proposed R&D, and historical
+  results from actionable recruitment calls. Clearly state the coverage boundary:
+  publicly discoverable topic-specific calls as of the cutoff, not unpublished
+  plans, all future annual calls, or every generic grant that might admit the sector.
+
+For the validated Ulsan TP current-board/global-search retrieval pattern, see
+`references/agency-board-inventory.md`.
+
 ## Identifying Unnamed Programs and Supplier Routes
 
 When the user only recalls a promotional claim (for example, “AI training is
@@ -134,6 +167,42 @@ not satisfy human headcount requirements.
 See `references/manufacturing-microproject-due-diligence.md` for a worked
 source-reading example and the validated official-portal retrieval pattern.
 
+## Next-Cycle Portfolio Planning
+
+When asked to maximize next year's support, optimize net business benefit and
+credible delivery capacity, not application count or headline ceilings.
+
+- Maintain separate ledgers for grants/R&D, vouchers/in-kind benefits, supplier
+  revenue, and loans/guarantees. Never sum them into a promised funding total.
+- For a solo firm, choose one primary commercialization application and one
+  fallback. Treat local complementary support, education revenue, and technical
+  R&D as distinct routes with explicit readiness gates—not an automatically
+  compatible bundle.
+- Search next-year notices already published this year. Distinguish operator,
+  consortium organizer, supplier-pool, course-provider, and beneficiary calls;
+  an operator call does not open company applications. Label projected dates
+  and budgets separately from announced terms.
+- Record each matching percentage's denominator: total project cost, grant
+  amount, or applicant contribution. Copy the official example and calculate
+  with tools. If wording and example disagree, preserve the conflict and defer
+  the budget decision to written operator clarification.
+- Test duplicate funding at application, selection, commitment letter,
+  agreement, and expenditure stages. One program's local-government exception
+  does not override the other program's restrictions or permit double charging.
+- Downgrade supplier routes to exploration when only purchaser notices were
+  verified. Do not transfer a legal-entity, staffing, or registration rule from
+  a similarly named scheme.
+- Build a month-by-month preparation plan around owned-product evidence,
+  demand validation, rights, common application documents, cash flow, and
+  actual human workload. Label interview/MVP targets as internal proposals,
+  not official requirements or completed achievements.
+- Count unique programs separately from rounds, demand/supply routes, exclusions,
+  and non-cash institutions. A large research appendix is not a count of
+  eligible applications. Keep the decision summary selective.
+
+See `references/next-cycle-portfolio-review.md` for financial-denominator,
+parallel-review, and evidence-quality checks with dated research examples.
+
 ## Program Fit Categories
 
 Use these labels consistently:
@@ -189,8 +258,9 @@ Lead with a decision, then provide:
   deadline for securing it.
 - Reusing annual program dates or amounts as future facts. Mark next-year terms
   unannounced and use the prior notice only as a preparation reference.
-- Writing all discovered programs into the answer. Exclude low-fit items and
-  preserve attention for the few actionable choices.
+- Dumping all discovered programs into a recommendation-only answer. Shortlist
+  by fit when that is the request; for an explicit **all-programs inventory**, keep
+  every in-scope item and separate the selective recommendation from the full list.
 
 ## Verification Checklist
 

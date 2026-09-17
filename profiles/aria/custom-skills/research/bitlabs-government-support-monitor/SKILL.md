@@ -91,6 +91,8 @@ HTML에 핵심 조건이 없으면 관련성이 명백한 제목·요약일 때�
 - 목록 단계에서 첨부파일부터 내려받지 않는다.
 - 기업마당은 `rows=50` 요청에도 실제 15개 행을 반환할 수 있다. 요청한 페이지 크기를 신뢰하지 말고 실제 공고 행 수·마지막 등록일·다음 페이지 링크로 48시간 겹침구간 끝까지 검증한다.
 - 스마트공장 SPA 목록이 비면 공개 JavaScript에서 `/usr/bg/ba/ma/bsnsPbanc/selectBsnsPbancPage.do`와 `/usr/bg/ba/ma/bsnsPbanc/selectBsnsPbancDtlPage.do` 호출 형식을 확인한다. 상세 조회는 `key=info`, `pbancId`, `pbancSn`을 사용하며 반환된 HTML 본문으로 적합성을 먼저 판정한다. 정적 chunk 해시는 변경되므로 하드코딩하지 않는다. 목록의 미래 공고일은 현재 신규로 보고하지 않는다.
+- KIAT 공식 목록/상세를 urllib의 JSON·reactDivision 헤더로 요청해 HTTP 500이 나면, 별도 JSON 헤더 없는 `requests.get(url, timeout=60)`으로 재시도한다(2026-09-16 복구 확인). 정상 공고 행/상세 본문을 확인하고 초기 실패와 복구를 함께 남긴다.
+- 스마트공장 상세 `atchFileId` 공란→값 변경은 첨부 메타데이터 변경으로 보존하되 HTML·접수기간이 같으면 지원조건 변경으로 단정하지 않는다. 지역 부적합으로 제외된 공고는 이 경우에도 첨부를 열지 않고 내용 미검증을 명시한다.
 - KIAT K-PASS가 접수기간만 표시하면 KIAT 공식 홈페이지의 `/front/board/boardContentsListAjax.do?board_id=90&miv_pageNo=1&miv_pageSize=10` 목록을 대안으로 확인한다. 목록 전체 업데이트 시각은 개별 공고 수정일로 사용하지 않는다.
 - HTTP 200이나 홈페이지 미리보기만으로 출처 성공을 선언하지 않는다. 울산TP 지원사업 목록이 비어 있으면 페이지의 `/sub02/js/re_ancmt.js`가 가리키는 공식 `/proc/re_ancmt/list.php`를 확인한다. 고정 공고를 일반 최신 공고와 분리해 페이지 경계를 검증한다.
 - 울산시 고시공고 `contents.ulsan?mId=001004002000000000`는 `/u/rep/transfer/notice/list.ulsan?mId=001004002000000000`로 리디렉션된다. 페이지 이동은 최종 목록 URL에 `curPage=N`을 붙인다(원 contents URL에서는 curPage가 소실되어 첫 페이지 반복 가능). 상세 URL도 최종 경로 기준으로 해석하고 ID는 숫자와 `gosiGbn`을 함께 쓴다(같은 숫자가 A/N에 중복 존재). 반복 페이지는 행 ID 집합으로 감지한다.
@@ -100,6 +102,7 @@ HTML에 핵심 조건이 없으면 관련성이 명백한 제목·요약일 때�
 - 울산경제일자리진흥원(UBPI) 상세 HTML 전일 비교 시 `조회\s*[\d,]+`와 첨부 `Down\s*:\s*[\d,]+`는 동적 카운터로 제거한다. 2026-09-15 3541·3540은 이 카운터만 달라졌으므로 모집조건 수정으로 보고하지 않는다. 증거 인용은 정규화하지 않은 원문에서 추출해야 verbatim 검증이 통과한다.
 - 스마트공장 목록 중복제거는 `(pbancId, pbancSn)` 복합키로 한다. 같은 pbancId에 다른 pbancSn(추가모집·유형별)이 실제 존재하므로 pbancId만으로 행을 덮어쓰지 않는다. 기존 상태 ID 형식을 바꾸지 않아도 관측 증거에는 두 필드를 모두 보존한다.
 - K-Startup 목록의 등록일자와 상세 본문 내 원기관 공고일·접수시작일은 다를 수 있다. 포털 신규 등록은 별도 이벤트로 기록하고 과거 원기관 사업이 오늘 처음 생겼다고 표현하지 않는다. 상세 상단 접수마감과 선정절차 내 접수기간이 상충하면 둘 다 인용하고 보수적 마감 및 주관기관 확인 필요를 표시한다.
+- UIPA·UBPI 상세 HTML 비교에서는 `이전글`/`다음글` 탐색 영역도 제외한다. 새 게시물이 생기면 기존 상세의 이전글 링크만 바뀔 수 있으므로 카운터 정규화 후에도 이를 실질 수정으로 오판하지 않는다(2026-09-16 UIPA 24980, UBPI 3541 확인).
 - 게시일·접수기간을 수정시각으로 대신 저장하지 않는다. 수정시각 미노출은 공백으로 명시하고, 기준선 이전 미관측 항목은 신규 발생으로 단정하지 않는다.
 - IRIS 게시일 목록 `/contents/retrieveBsnsAncmBtinSituListView.do`는 `ancmPrg=ancmPre|ancmIng|ancmEnd`로 탭을 선택하고 `pageIndex=N`으로 이동한다. `rcve_pre` 같은 다른 목록의 토큰을 쓰면 탭이 잘못 조회될 수 있으므로 hidden `ancmPrg`와 실제 행을 확인한다. `.dbody > li`의 `.ancmDe`가 공고일자이며 onclick의 `f_bsnsAncmBtinSituListForm_view`에서 ID를 읽는다. 각 탭 경계를 따로 확보한다.
 - KHIDI 상세는 목록에서 얻은 `/board/view?...&linkId=...` 링크를 사용한다. `/board?menuId=...&linkId=...`는 HTTP 200이어도 목록만 반환할 수 있으므로 `.viewContent` 본문과 상세 제목을 검증한다.

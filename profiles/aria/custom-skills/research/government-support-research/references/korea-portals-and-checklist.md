@@ -51,6 +51,8 @@ For every candidate record:
 
 - Bizinfo detail pages commonly use a stable `pblancId` URL. Related-notice HTML
   may reveal the exact ID when search indexing is incomplete.
+- For direct Bizinfo title searches, discover the current form first. The verified list endpoint is `/sii/siia/selectSIIA200View.do` with `condition=searchPblancNm`, `condition1=AND`, `keyword=<query>`, and `cpage=1`. Omitting `condition1` can return HTTP 500. `schEndAt=Y` returns past notices and `schEndAt=N` ongoing notices; search both. Do not assume `rows=100` was honored: the site may still return 15 rows, requiring pagination and count checks.
+- Some next-year notices appear during the current year. Distinguish program-operator recruitment from beneficiary/supplier recruitment; an operator notice may contain future program plans but does not open applications for individual firms. Do not blanket-label all next-year programs unannounced.
 - Attachment download links may use `/cmm/fms/fileDown.do?atchFileId=...&fileSn=...`.
   Download the attachment and use document extraction; do not rely on a page
   snippet for hidden eligibility conditions.
