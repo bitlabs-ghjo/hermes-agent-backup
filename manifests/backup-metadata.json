@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-17T03:15:09+00:00",
+  "created_at_utc": "2026-09-18T03:15:20+00:00",
   "profile_count": 6,
   "profiles": [
     "default",
@@ -93,7 +93,7 @@
     "profiles/aria/custom-skills/productivity/business-ai-workshop-design/references/two-hour-ax-blueprint.md": "aa215387b2b44254df44c0be4311198019ccc0454ffd7aafb2d6c19be4258c98",
     "profiles/aria/custom-skills/productivity/conversational-task-management/SKILL.md": "f072b151b251303ca0613ab5b66e05c499b9d348fa6e5f20fb6875ec94856978",
     "profiles/aria/custom-skills/productivity/conversational-task-management/references/bitlabs-slack-gtd.md": "db7f8e35933ac3d01b280f7381ca012da1efab7d23afae76396be3c86cd489ff",
-    "profiles/aria/custom-skills/research/bitlabs-government-support-monitor/SKILL.md": "0025186185a9e14e0e3d8c273afa2b770fa78b30a3f913cea951123c0c732c8d",
+    "profiles/aria/custom-skills/research/bitlabs-government-support-monitor/SKILL.md": "9f5735d8dc565b4a073dfe00d490c9f3ec6baf2b454541834ec0a4e6b2ed6263",
     "profiles/aria/custom-skills/research/business-case-research/SKILL.md": "926152e277459d699dccf7992b45b1677d53e6d5c5206d86c36bfb135bfe33ed",
     "profiles/aria/custom-skills/research/business-case-research/references/regional-sme-ai-adoption-reports.md": "9b6390526536ccad4a85f1e895ffe5bb4304038d5a03fc98d9dea444397a9966",
     "profiles/aria/custom-skills/research/business-case-research/references/youtube-evidence-and-delivery.md": "d55fed216a49da83110198417d0b8f565557e3d9724a0fd791ba0806577f9cf2",
