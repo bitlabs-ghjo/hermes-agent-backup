@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-19T03:15:32+00:00",
+  "created_at_utc": "2026-09-22T03:15:09+00:00",
   "profile_count": 6,
   "profiles": [
     "default",
@@ -93,7 +93,7 @@
     "profiles/aria/custom-skills/productivity/business-ai-workshop-design/references/two-hour-ax-blueprint.md": "aa215387b2b44254df44c0be4311198019ccc0454ffd7aafb2d6c19be4258c98",
     "profiles/aria/custom-skills/productivity/conversational-task-management/SKILL.md": "f072b151b251303ca0613ab5b66e05c499b9d348fa6e5f20fb6875ec94856978",
     "profiles/aria/custom-skills/productivity/conversational-task-management/references/bitlabs-slack-gtd.md": "db7f8e35933ac3d01b280f7381ca012da1efab7d23afae76396be3c86cd489ff",
-    "profiles/aria/custom-skills/research/bitlabs-government-support-monitor/SKILL.md": "f670b0107c5b1cc7775629a6d252f3f376564228d9ccb485b96b90c4820fce23",
+    "profiles/aria/custom-skills/research/bitlabs-government-support-monitor/SKILL.md": "77984f1418ceccbde1834b57b610f8aef1fe493d29b2a7d7eae6f3396545465e",
     "profiles/aria/custom-skills/research/business-case-research/SKILL.md": "926152e277459d699dccf7992b45b1677d53e6d5c5206d86c36bfb135bfe33ed",
     "profiles/aria/custom-skills/research/business-case-research/references/regional-sme-ai-adoption-reports.md": "9b6390526536ccad4a85f1e895ffe5bb4304038d5a03fc98d9dea444397a9966",
     "profiles/aria/custom-skills/research/business-case-research/references/youtube-evidence-and-delivery.md": "d55fed216a49da83110198417d0b8f565557e3d9724a0fd791ba0806577f9cf2",
@@ -131,8 +131,10 @@
     "profiles/eden/SOUL.md": "c66f10af9e98d26d27ee5f7be37b5da0188c830608249a50b1024a96400a2026",
     "profiles/eden/config.yaml": "60420feb08aec2ce1f9605d84c66df7534e2bb3871ce4f63ee66a322472b7d4e",
     "profiles/eden/custom-skills/education/instructional-design/SKILL.md": "6ad80c7dcacc9c7254a852f8d2281d2ce529da981c433d8daec6a45ed3a79733",
+    "profiles/eden/custom-skills/education/interactive-learning-artifacts/SKILL.md": "92f3a0f83ee96c2f5155c937454f107e252479f56ebe851e285332d4465ba7c2",
+    "profiles/eden/custom-skills/education/interactive-learning-artifacts/references/jev-rlcd-general-audience.md": "20c78ca32b5ab68886c7dac02a334f9a3b84e40fdf1c1b97815b9ee6373e3f20",
     "profiles/eden/env.example": "449ffe16100afcbdf20df1c60d43e88e7de5f6b941cfabaa1afea10e79b6f507",
-    "profiles/eden/profile-metadata.json": "092f912f43ff4fdcdc2b86b3c50bd219e57d76ab3d962896eca8589793f16b29",
+    "profiles/eden/profile-metadata.json": "c0d3f5cb0d4aee0f188ed549b39ba84ba2e92669ae909221483433ea94cce299",
     "profiles/eden/skills.manifest": "bbf1cf0f4fe1e0895d8284cdbff979172ee4c99fc6244f1e47415d54ef4da650",
     "profiles/leo/SOUL.md": "352679faa275f87720f4df35a1a2c5aa2330b4137c058e6b05aba8b0469525a2",
     "profiles/leo/config.yaml": "60420feb08aec2ce1f9605d84c66df7534e2bb3871ce4f63ee66a322472b7d4e",

@@ -112,6 +112,7 @@ HTML에 핵심 조건이 없으면 관련성이 명백한 제목·요약일 때�
 - IRIS 게시일 목록 `/contents/retrieveBsnsAncmBtinSituListView.do`는 `ancmPrg=ancmPre|ancmIng|ancmEnd`로 탭을 선택하고 `pageIndex=N`으로 이동한다. `rcve_pre` 같은 다른 목록의 토큰을 쓰면 탭이 잘못 조회될 수 있으므로 hidden `ancmPrg`와 실제 행을 확인한다. `.dbody > li`의 `.ancmDe`가 공고일자이며 onclick의 `f_bsnsAncmBtinSituListForm_view`에서 ID를 읽는다. 각 탭 경계를 따로 확보한다.
 - KHIDI 상세는 목록에서 얻은 `/board/view?...&linkId=...` 링크를 사용한다. `/board?menuId=...&linkId=...`는 HTTP 200이어도 목록만 반환할 수 있으므로 `.viewContent` 본문과 상세 제목을 검증한다.
 - UTP 상세 링크를 `/sub02/sub01.php?seq=<ID>`로 조합하면 404가 될 수 있다(2026-09-18 595 확인). 공식 JS가 사용하는 `/proc/re_ancmt/list.php?task=getItem&seq=<ID>&_=<epoch ms>`의 `code=OK`·실제 상세를 확인하고 검증된 API URL을 인용한다. 첨부는 상세 응답 `files[].f_no`와 공식 JS의 `/proc/re_ancmt/download.php?seq=<ID>&no=<f_no>`를 사용한다. JSON 증거는 `ensure_ascii=False`로 디코딩해 저장해야 한국어 verbatim quote 검증이 가능하다.
+- K-Startup에 게시됐다는 사실만으로 정부·공공 재원 사업으로 간주하지 않는다. `기관구분 민간`인 자체 멘토링·IR 행사는 주관·지원기관 또는 공공 재원 근거를 별도로 확인하고, 확인되지 않으면 정부지원 보고 대상에서 제외 사유를 기록한다.
 - 제목에 `AI`가 있다는 이유만으로 관련 공고로 판정하지 않는다.
 - 대표 개인 경력과 회사가 보유한 제품·인허가·실적을 혼동하지 않는다.
 - `예산 소진 시까지`를 실제 예산 잔액으로 간주하지 않는다.
