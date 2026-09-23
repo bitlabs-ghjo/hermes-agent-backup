@@ -75,7 +75,21 @@ Use explicit labels where ambiguity matters:
 
 Do not present scores, estimates, or market-size assumptions as measured facts.
 
-### 4. Produce HTML when requested
+### 4. Convert source content into a business opportunity
+
+When the report starts from a video, article, podcast, or other commentary and asks for a business item:
+
+1. identify whether the supplied content summarizes or interprets an earlier primary source;
+2. retrieve and compare that primary source before accepting the commentary's framing;
+3. separate the source's actual method from headline promises, examples, and the commentator's added synthesis;
+4. reject guarantees or marketing superlatives (for example, “100% profitable”) unless the evidence literally supports them;
+5. generate opportunities from the company's proven access, skills, customer relationships, and recurring internal pain—not merely from an attractive industry statistic;
+6. if founder–market fit or customer access is unproven, recommend a paid discovery or service-led pilot before a standalone SaaS build;
+7. gate productization on repeated paid demand, reusable workflow overlap, measurable outcome improvement, and acceptable customization cost.
+
+For opportunity reports, include at minimum: customer problem, persona, market-sizing method and assumptions, alternatives, value proposition, MVP inclusions/exclusions, pricing hypothesis, launch/validation plan, success metrics, risks, and a clear go/no-go condition. Label bottom-up market calculations and prices as hypotheses unless they come from measured transactions.
+
+### 5. Produce HTML when requested
 
 When the user asks for HTML reporting, produce a standalone HTML5 document rather than Markdown wrapped in a code block.
 
@@ -94,7 +108,7 @@ If file tools are available, save as `.html` and validate that the file exists a
 
 See `references/html-report-delivery.md` for the detailed artifact and routing checklist.
 
-### 5. Route reports accurately
+### 6. Route reports accurately
 
 Distinguish these claims:
 
@@ -108,7 +122,7 @@ Never equate posting in a shared channel with notifying a named person unless th
 
 For reports routed through an internal report channel, post the full artifact once in the designated report channel. In the originating channel, leave only a short status and pointer unless the request explicitly requires duplication.
 
-### 6. Update recurring reports safely
+### 7. Update recurring reports safely
 
 When changing a scheduled report’s output format or audience:
 
@@ -121,7 +135,7 @@ When changing a scheduled report’s output format or audience:
 
 Do not replace a long job prompt with a short addendum. A successful update call proves persistence, not that future runs are active.
 
-### 7. Final verification
+### 8. Final verification
 
 Before reporting completion, verify:
 

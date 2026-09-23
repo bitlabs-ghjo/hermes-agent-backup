@@ -216,9 +216,43 @@ Use these labels consistently:
 - **Next-cycle pipeline:** closed this year; useful for concrete preparation.
 - **Exclude:** a hard gate conflicts with known facts.
 
+## Item-First Commercialization and R&D Proposals
+
+When the request is for **business ideas for grants or R&D**, lead with product
+opportunities, not a grant catalogue. Deliver at least the requested number of
+distinct items and verify the count. Reusing the same document engine across
+workflows is not by itself evidence of distinct customer demand.
+
+For each item state the paying customer, exact costly task, source-backed problem,
+proposed narrow MVP and exclusions, existing non-AI/commercial alternative,
+technical uncertainty, data rights and ground-truth owner, evaluation design,
+revenue model, and stop/go condition. Label proposed durations and sample sizes
+as planning assumptions conditional on data readiness, not validated estimates.
+
+Rank **commercial validation** and **R&D suitability** separately. A useful
+rules/OCR/RAG integration can be a viable product without being a defensible R&D
+project. Research framing needs a specific unresolved technical problem, a
+baseline, independent test data, and a measurable improvement hypothesis. Do not
+inflate scope merely to fit funding. For a solo firm, name one lead product and
+one conditional alternative rather than recommending simultaneous development.
+
+Historical RFPs establish the stated historical problem; later implementation
+reports strengthen evidence of feasibility, not proof of present unmet demand.
+Separate current purchasing intent from both. Mark adjacent ideas with no direct
+problem evidence as exploratory rather than ranking them highly for ease of build.
+Keep expected effects, RFP targets, and measured outcomes distinct.
+
+See `references/item-first-rd-proposals.md` for a worked evidence bank and
+technical evaluation patterns. Re-fetch dated sources before using them for
+current eligibility or market claims.
+
 ## Required Output
 
-Lead with a decision, then provide:
+For item-first requests, use the structure above, followed by a short conditional
+funding-route map and next-cycle preparation plan. Do not force an immediate-open
+opportunity or deadline into an ideation request.
+
+For program-search requests, lead with a decision, then provide:
 
 1. Top 1–3 immediate opportunities with deadline and days remaining.
 2. Exact support form: grant, voucher, R&D reimbursement, loan/interest subsidy,
