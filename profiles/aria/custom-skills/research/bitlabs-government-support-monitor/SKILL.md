@@ -110,6 +110,7 @@ HTML에 핵심 조건이 없으면 관련성이 명백한 제목·요약일 때�
 - 전일 교차게시의 공식 첨부로 확인한 공급기업 참여조건은 다음 날 더 짧은 HTML을 다시 읽었다는 이유로 제외 판정으로 되돌리지 않는다. 본문·조건이 바뀌지 않았다면 기존의 더 강한 검증 근거를 유지하고, 재분류하려면 실제 변경 근거를 기록한다(2026-09-18 스마트공장 2026-N-0197 확인).
 - 포털 등록일이 전일이고 시각 미공개인 미관측 공고는 기준선 이후 신규 등록으로 확정하지 않는다. 본문 공고일·접수시작일이 오늘이어도 등록시각의 증거가 되지 않으므로 ‘겹침구간 신규 관측’으로 별도 집계한다.
 - IRIS 게시일 목록 `/contents/retrieveBsnsAncmBtinSituListView.do`는 `ancmPrg=ancmPre|ancmIng|ancmEnd`로 탭을 선택하고 `pageIndex=N`으로 이동한다. `rcve_pre` 같은 다른 목록의 토큰을 쓰면 탭이 잘못 조회될 수 있으므로 hidden `ancmPrg`와 실제 행을 확인한다. `.dbody > li`의 `.ancmDe`가 공고일자이며 onclick의 `f_bsnsAncmBtinSituListForm_view`에서 ID를 읽는다. 각 탭 경계를 따로 확보한다.
+- KHIDI 첨부 변경 비교는 실제 `/fileDownload?` 링크 집합으로 재검증한다. HTML 전체 `a` 태그를 pdf/hwp/download 문자열로 검색하면 이미지·onclick 등에 포함된 문자열 때문에 빈 텍스트 `href="#"` 또는 다른 게시판 링크가 오탐될 수 있다. 2026-09-23 KHIDI 48950142는 빈 링크 1개만 사라졌고 실제 첨부 4개·본문은 동일했다. 탐색요소 차이를 첨부 교체로 보고하지 않는다.
 - KHIDI 상세는 목록에서 얻은 `/board/view?...&linkId=...` 링크를 사용한다. `/board?menuId=...&linkId=...`는 HTTP 200이어도 목록만 반환할 수 있으므로 `.viewContent` 본문과 상세 제목을 검증한다.
 - UTP 상세 링크를 `/sub02/sub01.php?seq=<ID>`로 조합하면 404가 될 수 있다(2026-09-18 595 확인). 공식 JS가 사용하는 `/proc/re_ancmt/list.php?task=getItem&seq=<ID>&_=<epoch ms>`의 `code=OK`·실제 상세를 확인하고 검증된 API URL을 인용한다. 첨부는 상세 응답 `files[].f_no`와 공식 JS의 `/proc/re_ancmt/download.php?seq=<ID>&no=<f_no>`를 사용한다. JSON 증거는 `ensure_ascii=False`로 디코딩해 저장해야 한국어 verbatim quote 검증이 가능하다.
 - K-Startup에 게시됐다는 사실만으로 정부·공공 재원 사업으로 간주하지 않는다. `기관구분 민간`인 자체 멘토링·IR 행사는 주관·지원기관 또는 공공 재원 근거를 별도로 확인하고, 확인되지 않으면 정부지원 보고 대상에서 제외 사유를 기록한다.

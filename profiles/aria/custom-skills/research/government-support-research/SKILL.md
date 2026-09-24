@@ -182,6 +182,15 @@ credible delivery capacity, not application count or headline ceilings.
   consortium organizer, supplier-pool, course-provider, and beneficiary calls;
   an operator call does not open company applications. Label projected dates
   and budgets separately from announced terms.
+- Audit video-based advice against exact program identities. Similar names such
+  as a scale-up “Jump-up” program and technology-readiness “TRL Jump-up” do not
+  share budgets or eligibility. Follow the budget's reform/renaming language.
+- Look for next-cycle technical-demand surveys already open this year; do not
+  wait for the month predicted in a video. Read the original poster and form:
+  an unmatched-technology option may allow a survey submission without meeting
+  the later grant's technology-transfer gate. Survey participation is neither
+  RFP adoption nor award selection. Separate prior-cohort phase 2 from the next
+  cohort's phase 1, and keep schedule diagrams labeled as provisional.
 - Record each matching percentage's denominator: total project cost, grant
   amount, or applicant contribution. Copy the official example and calculate
   with tools. If wording and example disagree, preserve the conflict and defer
