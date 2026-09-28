@@ -212,6 +212,23 @@ credible delivery capacity, not application count or headline ceilings.
 See `references/next-cycle-portfolio-review.md` for financial-denominator,
 parallel-review, and evidence-quality checks with dated research examples.
 
+## Expert Pools and Regional Customer Discovery
+
+Use this workflow when evaluating technology-doctor, advisor, mentor, or expert-pool participation as a route to regional relationships and problem discovery.
+
+- Separate strategic fit, formal eligibility, current recruitment, actual matching, and downstream commercial permission. Registration proves none of the later stages.
+- Read expert recruitment, not beneficiary recruitment. Check both general and field-specific qualifications; long industry experience may satisfy only the former. Apply restrictions to their exact subcategory, not to every applicant. Discretionary equivalent-expertise clauses require operator confirmation.
+- A title saying `상시` does not override a dated attachment deadline. Historical notices support preparation, not a claim of current or next-year availability. Compare attachment contacts with page-footer contacts and flag differences before outreach.
+- Classify each route before ranking: enterprise field advisor, project evaluator, startup mentor, or youth/career counselor. A shared agency name or an open expert pool does not imply the same audience or customer-discovery value. Distinguish strategic-fit priority from deadline-response priority; an imminent evaluator deadline need not make it the best field-networking route.
+- Separate regional desk-counselor recruitment from a national field-clinic registration process. A closed regional call does not establish that every related registration route is closed; a visible registration page does not prove applications are currently being approved.
+- Map experience to the exact evidence category. Industrial development employment, consulting delivery, management rank, and professional credentials are not interchangeable. Check whether consulting years require annual project evidence and whether a sole proprietor can supply the specified employment/rank documents. Preserve discrepancies between a summary webpage and the current operating-guideline attachment for operator clarification.
+- Evaluate visits, reports, travel, availability, compensation, and matching frequency. Non-employed advisory appointments are not guaranteed recurring revenue.
+- Check conflict-of-interest, self-dealing, confidentiality, referral, and supplier rules before treating advisory clients as sales leads. Never reuse confidential client problems, data, or IP for an owned product without appropriate rights and consent.
+- For bitlabs strategy discussions, preserve public-support participation as an explicit business axis when requested; do not silently narrow it to the existing product or replace it with private sales alone. Distinguish own-product funding, supplier revenue, and advisory compensation.
+- When the founder is struggling to identify items, provide a discovery method rather than repeatedly asking for an existing idea: reachable practitioners and trusted regional connectors → recent costly workflow examples → data and buyer access → bounded paid validation. Evaluate commercial demand and R&D merit separately. Networking success means verified problems and concrete follow-up, not event attendance or business-card counts.
+
+See `references/expert-pool-networking.md` for a dated Ulsan TP example, qualification traps, and a verified public-attachment retrieval pattern. See `references/regional-expert-route-comparison.md` for cross-institution role classification, counseling-versus-clinic registration traps, and dated official-source anchors beyond Ulsan TP.
+
 ## Program Fit Categories
 
 Use these labels consistently:

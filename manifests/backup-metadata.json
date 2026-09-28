@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-24T03:15:34+00:00",
+  "created_at_utc": "2026-09-28T03:15:20+00:00",
   "profile_count": 6,
   "profiles": [
     "default",
@@ -99,13 +99,15 @@
     "profiles/aria/custom-skills/research/business-case-research/references/youtube-evidence-and-delivery.md": "d55fed216a49da83110198417d0b8f565557e3d9724a0fd791ba0806577f9cf2",
     "profiles/aria/custom-skills/research/enterprise-case-study-research/SKILL.md": "d62561265ceff99ec94344bc8f13ef1335d0baebdc91711bee45e060d10104a5",
     "profiles/aria/custom-skills/research/enterprise-case-study-research/references/youtube-evidence-workflow.md": "f7ed046c232a03caf7bcbee797942e8ad2445f188d0063f8901d1223ab9eac0e",
-    "profiles/aria/custom-skills/research/government-support-research/SKILL.md": "aa4045495bb8da3dce4d4bd06a445f4689867ba97fb7f010eeb9aa9e402fbcd8",
+    "profiles/aria/custom-skills/research/government-support-research/SKILL.md": "f5aefd6921bbd8a254f0e302fc4473106f8ae4a601c74025757cf07b3c8fe337",
     "profiles/aria/custom-skills/research/government-support-research/references/agency-board-inventory.md": "d56349ecef11c0aa697ff1e4f6b7e6d4f8a58c056aac667445a5647f7dfa455f",
+    "profiles/aria/custom-skills/research/government-support-research/references/expert-pool-networking.md": "dec54828e4f1bbf3dafbcd95817476774ec572bd11f151cf88d7938860449784",
     "profiles/aria/custom-skills/research/government-support-research/references/item-first-rd-proposals.md": "5895aaa12dc2b68af61ecdf5354f091c7aa6bcd42157ac1bd9f6159230a3ac5a",
     "profiles/aria/custom-skills/research/government-support-research/references/korea-portals-and-checklist.md": "e9da0f002886e8c69388a8fb559e1da26ed07c15ab00e1f838ed2f3c499e7b43",
     "profiles/aria/custom-skills/research/government-support-research/references/korean-training-provider-research.md": "7c39a7056c65ec001ad080698b569b5833654dfb0891ff1816bf3232c47e659f",
     "profiles/aria/custom-skills/research/government-support-research/references/manufacturing-microproject-due-diligence.md": "cf4b645dd405ccd21876aa7fb2c3f03e5afda6b68933b2b58209a52938fec6b4",
     "profiles/aria/custom-skills/research/government-support-research/references/next-cycle-portfolio-review.md": "12a1a0da95158b281faf254d152747f388e2cb45be3fe19e6db44072f043eb25",
+    "profiles/aria/custom-skills/research/government-support-research/references/regional-expert-route-comparison.md": "2c7836d83644885aa076cf024b5195f31c9d115efc2c158207185062b63e9fac",
     "profiles/aria/custom-skills/taste-skill/SKILL.md": "aa194351b246b8b4799099d4ed7b033d29eab6e6e3d58d8d2172978be7b3ec89",
     "profiles/aria/env.example": "b5b41ae7fe4cadcaa53224f575e6eb4857978dce8708d32108f1853f6c45e47e",
     "profiles/aria/profile-metadata.json": "7ee222eeb59615ade4ff658197c43c470bb9b70a2d72257a130cd7aa130844a0",
